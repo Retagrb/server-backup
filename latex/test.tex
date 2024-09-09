@@ -1,0 +1,201 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{multirow}
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{ulem}
+
+\begin{document}
+
+\section{烷}
+
+\text{甲烷燃烧：}\ce{CH4(g) + 2O2(g) ->T[点燃]CO2(g) + 2H2O}
+
+\text{甲烷和氯气发生取代反应}:
+\begin{align}
+& \ce{CH4 + Cl2 ->T[光照] CH3Cl + HCl}\notag\\
+& \ce{CH3Cl + Cl2 ->T[光照] CH2Cl2 + HCl}\notag\\
+& \ce{CH2Cl2 + Cl2 ->T[光照] CHCl3 + HCl}\notag\\
+& \ce{CHCl3 + Cl2 ->T[光照] CCl4 + HCl}\notag
+\end{align}
+
+\text{甲烷受热分解：}\ce{CH4 ->T[高温] C + 2H2}
+
+\text{烷烃燃烧的通式：}\ce{C_nH_{2n + 2} + \frac{3n + 1}{2}O_2 ->T[点燃] nCO_2 + (n + 1)H_2O}
+
+\text{烷烃取代反应的通式：}\ce{C_nH_{2n + 2} + X_2 ->T[光照] C_nH_{2n + 1}X + HX}
+
+\text{烷烃高温裂解的例子：}
+
+\ce{C16H34 ->T[催化剂][加热加压] C8H16 + C8H18} \text{；}\ce{C7H16 ->T[催化剂][加热加压] C4H10 + C3H6}
+
+\section{烯}
+
+\text{乙烯的燃烧：}\ce{C2H4 + 3O2 ->T[点燃] 2CO2 + 2H2O}
+
+\text{乙烯通入溴水或溴的\ce{CCl_4}溶液：}\ce{CH2=CH2 + Br2 -> CH2Br-CH2Br}
+
+\text{乙烯与氢气加成：}\ce{CH2=CH2 + H2 ->T[催化剂][\Delta] CH3CH3}
+
+\text{乙烯与氯化氢加成：}\ce{CH2=CH2 + HCl ->T[催化剂][\Delta] CH3CH2Cl}
+
+\text{乙烯与水加成：}\ce{CH2=CH2 + H2O ->T[催化剂][加热加压] CH3CH2OH}
+
+\text{乙烯与氰化氢加成：}\ce{CH2=CH2 + HCN ->T[催化剂][\Delta] CH3CH2CN}
+
+\text{乙烯发生加聚反应形成聚乙烯：}\ce{nCH2=CH2 ->T[催化剂] \text{\sout{ [ }} CH2-CH2 \text{\sout{ ] }}_n}
+
+\text{烯烃的加成反应通式：}
+\begin{align}
+& \ce{C_nH_{2n} + X2 -> C_nH_{2n}X2}\notag\\
+& \ce{C_nH_{2n} + H2 ->T[Ni][\Delta] C_nH_{2n + 2}}\notag\\
+& \ce{C_nH_{2n} + HX ->T[催化剂][\Delta] C_nH_{2n + 1}X}\notag
+\end{align}
+
+\text{烯烃的燃烧通式：}
+\ce{C_nH_{2n} + \frac{3n}{2}O2 ->T[点燃] nCO2 + nH2O}
+
+\text{与酸性高锰酸钾溶液反应：}\ce{CH2=CH2 ->T[酸性\ce{KMnO4}溶液] CO2 + H2O}
+
+\text{\quad\ce{CH2=}被氧化为\ce{CO2}}
+
+\text{\quad\ce{RCH=}被氧化为\chemfig{C(-[0,0.7]OH)(-[4,0.7]R)(=[2,0.7]O)}}
+
+\text{\quad\chemfig{C(=[0,0.7])(-[3,0.7]R_1)(-[5,0.7]R_2)}被氧化为\chemfig{C(=[0,0.7]O)(-[3,0.7]R_1)(-[5,0.7]R_2)}}
+
+\text{烯烃的加聚反应：}\ce{nR_1CH=CHR_2 ->T[催化剂] \text{\sout{ [ }} }\chemfig{CH(-[6,0.7]R_1)-CH(-[6,0.7]R_2)}\ce{ \text{\sout{ ] }}_n}
+
+\text{1,3-丁二烯与溴发生1,4加成：}\ce{CH2=CH-CH=CH2 + Br2 -> \chemfig{CH_2(-[2,0.7]Br)-[,0.7]CH=[,0.7]CH-[,0.7]CH_2(-[2,0.7]Br)}}
+
+\text{1,3-丁二烯与溴发生1,2加成：}\ce{CH2=CH-CH=CH2 + Br2 -> \chemfig{CH_2(-[2,0.7]Br)-[,0.7]CH(-[2,0.7]Br)-[,0.7]CH=[,0.7]CH_2}}
+
+\section{炔}
+
+\text{乙炔的燃烧：}\ce{2C2H2 + 5O2 ->T[点燃] 4CO2 + 2H2O}
+
+\text{乙炔与溴的四氯化碳溶液发生加成反应：}\ce{CH#CH + 2Br2 -> CHBr2CHBr2}
+
+\text{乙炔和氯化氢发生加成反应：}\ce{CH#CH + HCl ->T[催化剂][\Delta] CH2=CHCl}
+
+\section{苯}
+
+\text{苯的燃烧：}\ce{2C6H6 + 15O2 ->T[点燃] 12CO2 + 6H2O}
+
+\text{苯的硝化反应：}\ce{\chemfig{[,0.7]*6(-=-=-=)} + HO-NO2 ->T[浓硫酸][50-60°C] \chemfig{[,0.7]*6(-=-(-[0]NO_2)=-=)} + H2O}
+
+\text{苯的卤代反应：}\ce{\chemfig{[,0.7]*6(-=-=-=)} + Br2 ->T[FeBr3] \chemfig{[,0.7]*6(-=-(-[0]Br)=-=)} + HBr}
+
+\text{苯的磺化反应：}\ce{\chemfig{[,0.7]*6(-=-=-=)} + HO-SO3H}\text{(浓)}\ce{ <=>T[催化剂][\Delta] \chemfig{[,0.7]*6(-=-(-[0]SO_3H)=-=)} + H_2O}
+
+\text{苯和氢气加成：}\ce{{\chemfig{[,0.7]*6(-=-=-=)}} + 3H2 ->T[催化剂][\Delta] \chemfig{[,0.7]*6(------)}}
+
+\text{甲苯的硝化反应：}\ce{\chemfig{[,0.7]*6(-=-=(-[2]CH_3)-=)} + 3HO-NO2 ->T[浓硫酸][30°C] \chemfig{[,0.7]*6(-(-[6]NO_2)=-(-[0]NO_2)=(-[2]CH_3)-(-[4]O_2N)=)} + 3H2O}
+
+\text{乙苯被酸性\ce{KMnO4}氧化：}\ce{\chemfig{[,0.7]*6(-=-(-[0]CH_2CH_3)=-=)} ->T[酸性KMnO4溶液] \chemfig{[,0.7]*6(-=-(-[0]COOH)=-=)}}
+
+\text{乙苯的制备：}\ce{\chemfig{[,0.7]*6(-=-=-=)} + CH2=CH2 ->T[催化剂][\Delta] \chemfig{[,0.7]*6(-=-=(-[2]CH_2CH_3)-=)}}
+
+\section{醇}
+
+\text{乙醇和钠发生取代反应：}\ce{2CH3CH2OH + 2Na -> 2CH3CH2ONa + H2 ^}
+
+\text{乙醇和\ce{HBr}发生反应：}\ce{CH3CH2-OH + HBr ->T[\Delta] CH3CH2Br + H2O}
+
+\text{乙醇的分子内脱水反应（消去反应）：}\ce{CH3CH2OH ->T[浓硫酸][170°C] CH2=CH2 ^ + H2O}
+
+\text{乙醇的分子间脱水反应：}\ce{CH3CH2O-H + HO-CH2CH3 ->T[浓硫酸][140°C] CH3CH2-O-CH2CH3 + H2O}
+
+\text{乙醇燃烧氧化：}\ce{CH3CH2OH + 3O2 ->T[点燃] 2CO2 + 3H2O}
+
+\text{乙醇催化氧化：}\ce{2CH3CH2OH + O2 ->T[Cu或Ag][\Delta] 2CH3CHO + 2H2O}
+
+\text{乙醇和乙酸发生取代反应生成乙酸乙酯：}\ce{CH3COOH + HOC2H5 <=>T[浓硫酸][\Delta] CH3COOC2H5 + H2O}
+
+\section{卤代烃}
+
+\text{溴乙烷在氢氧化钠的水溶液中发生水解反应：}\ce{C2H5-Br + NaOH ->T[水][\Delta] C2H5OH + NaBr}
+
+\text{溴乙烷在氢氧化钠的醇溶液中发生消去反应：}\ce{\chemfig{CH_2(-[6,0.7]H)(-[,0.7]CH_2(-[6,0.7]Br))} + NaOH ->T[醇][\Delta] CH2=CH2 ^ + NaBr + H2O}
+
+\text{卤代烃的水解反应通式（制取一元醇）：}\ce{R-X + NaOH ->T[水][\Delta] R-OH + NaX}
+
+\text{一卤代烃的消去反应：}\ce{\chemfig{C(-[,0.7]C(-[2,0.7])(-[,0.7])(-[6,0.7]X))(-[4,0.7])(-[2,0.7])(-[6,0.7]H)} + NaOH ->T[醇][\Delta] \chemfig{C(-[4,0.7])(-[2,0.7])(=[,0.7]C(-[2,0.7])(-[,0.7]))} + NaX + H2O}
+
+\text{多卤代烃的消去反应：}
+\begin{align}
+& \ce{BrCH2CH2Br + NaOH ->T[醇][\Delta] CH2=CH-Br + NaBr + H2O}\notag\\
+& \ce{BrCH2CH2Br + 2NaOH ->T[醇][\Delta] CH#CH ^ + 2NaBr + 2H2O}\notag
+\end{align}
+
+\section{酚}
+
+\text{苯酚的电离方程式：}\ce{\chemfig{[,0.7]*6(-=-(-[0,1]OH)=-=)} <=> H+ + \chemfig{[,0.7]*6(-=-(-[0,1]O^{-})=-=)}}
+
+\text{苯酚和\ce{NaOH}反应：} \ce{\chemfig{[,0.7]*6(-=-(-[0,1]OH)=-=)} + NaOH -> \chemfig{[,0.7]*6(-=-(-[0,1]ONa)=-=)} + H2O}
+
+\text{苯酚钠和盐酸反应：}\ce{\chemfig{[,0.7]*6(-=-(-[0,1]ONa)=-=)} + HCl -> \chemfig{[,0.7]*6(-=-(-[0,1]OH)=-=)} + NaCl}
+
+\text{向苯酚钠溶液中通入二氧化碳：}\ce{\chemfig{[,0.7]*6(-=-(-[0,1]ONa)=-=)} + CO_2 + H_2O -> \chemfig{[,0.7]*6(-=-(-[0,1]OH)=-=)} + NaHCO_3}
+
+\text{苯酚和金属钠反应：}\ce{2\chemfig{[,0.7]*6(-=-(-[0,1]OH)=-=)} + 2Na -> 2\chemfig{[,0.7]*6(-=-(-[0,1]ONa)=-=)} + H2 ^}
+
+\text{苯环上的取代反应：}\ce{\chemfig{[,0.7]*6(-=-=(-[2]OH)-=)} + 3Br2 -> \chemfig{[,0.7]*6(-(-[6]Br)=-(-[0]Br)=(-[2]OH)-(-[4]Br)=)} v + 3HBr}
+
+\text{溴苯和氢氧化钠溶液反应：}
+
+\begin{align}
+& \ce{\chemfig{[,0.7]*6(-=-(-[0,0.7]Br)=-=)} + NaOH ->T[催化剂][\Delta] \chemfig{[,0.7]*6(-=-(-[0,0.7]OH)=-=)} + NaBr}\notag\\
+& \ce{\chemfig{[,0.7]*6(-=-(-[0,0.7]OH)=-=)} + NaOH -> \chemfig{[,0.7]*6(-=-(-[0,0.7]ONa)=-=)} + H2O}\notag
+\end{align}
+
+\section{醛}
+
+\text{甲醛和银氨溶液反应：}\ce{HCHO + 4Ag(NH3)2OH ->T[\Delta] (NH4)2CO3 + 6NH3 + 4Ag v + 2H2O}
+
+\text{甲醛和新制\ce{Cu(OH)2}悬浊液反应：}\ce{HCHO + 4Cu(OH)2 + 2NaOH ->T[\Delta] 2Cu2O v + Na2CO3 + 6H2O}
+
+\text{乙醛的加成反应：}\ce{CH3CHO + H2 ->T[催化剂][\Delta] CH3CH2OH}
+
+\text{乙醛的燃烧：}\ce{2CH3CHO + 5O2 ->T[点燃] 4CO2 + 4H2O}
+
+\text{乙醛的催化氧化：} \ce{2CH3CHO + O2 ->T[催化剂][\Delta] 2CH3COOH}
+
+\text{乙醛和银氨溶液反应：}\ce{CH3CHO + 2Ag(NH3)2OH + 2Ag v + 3NH3 + H2O}
+
+\text{乙醛和新制\ce{Cu(OH)2}悬浊液反应：}
+\begin{align}
+& \ce{CuSO4 + 2NaOH = Cu(OH)2 v + Na2SO4} \notag \\
+& \ce{CH3CHO + 2Cu(OH)2 + NaOH ->T[\Delta] CH3COONa + Cu2O v + 3H2O} \notag
+\end{align}
+
+\section{酮}
+
+\text{酮与氰化氢加成：}\ce{\chemfig{CH_3C(=[1,0.7]O)(-[7,0.7]CH_3)} + \chemfig{CN(-[2,0.7]H)} ->T[催化剂] \chemfig{CH_3(-[0,0.7]C(-[2,0.7]OH)(-[0,0.7]CN)(-[6,0.7]CH3))}}
+
+\text{酮和氢气发生还原反应：}\ce{\chemfig{CH_3(-[0,0.7]C(=[6,0.7]O)(-[0,0.7]CH_3))} + H2 ->T[Ni或Pt][高温、高压] \chemfig{CH_3(-[0,0.7]CH(-[6,0.7]OH)(-[0,0.7]CH_3))}}
+
+\section{羧酸}
+
+\text{乙酸的电离方程式：}\ce{CH3COOH <=> CH3COO- + H+}
+
+\text{乙酸与活泼金属反应：}\ce{Zn + 2CH3COOH -> (CH3COO)2Zn + H2 ^}
+
+\text{乙酸与碱反应：}\ce{NaOH + CH3COOH -> CH3COONa + H2O}
+
+\text{乙酸与碱金属性氧化物反应：}\ce{CuO + 2CH3COOH -> (CH3COO)2Cu + H2O}
+
+\text{乙醇和乙酸发生取代反应生成乙酸乙酯：}\ce{CH3COOH + HOC2H5 <=>T[浓硫酸][\Delta] CH3COOC2H5 + H2O}
+
+\text{羧酸的电离方程式：}\ce{RCOOH <=> RCOO- + H+}
+
+\text{羧酸与碱反应：}\ce{RCOOH + NaOH -> RCOONa + H2O}
+
+\text{羧酸发生酯化反应：}\ce{R1COOH + HOR2 <=>T[浓硫酸][\Delta] R_1COOR_2 + H2O}
+
+\section{酯}
+
+\text{酯在酸性条件下水解：}\ce{R1COOR2 + H2O <=>T[稀硫酸][\Delta] R1COOH + R2OH}
+
+\text{酯在碱性条件下水解：}\ce{R1COOR2 + NaOH ->T[\Delta] R1COONa + R2OH}
+
+\end{document}

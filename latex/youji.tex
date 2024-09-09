@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{multirow}
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{ulem}
+
+\begin{document}
+
+\ce{n \chemfig{H-[0,0.7]C(=[2,0.7]O)-[0,0.7]H} ->T[一定条件]}
+\chemfig{\vphantom{CH_2}-[@{op,0.5}]CH_2-O-[@{cl,0.5}]}
+\polymerdelim[delimiters ={[]}]{op}{cl}
+\bigskip
+
+\ce{n CH2=CH2 + n CH2=CH-CH3 ->T[一定条件] }
+\chemfig{\vphantom{CH_2}-[@{op,0.5}]CH_2-CH_2-CH(-[6,0.7]CH_3)-CH_2-[@{cl,0.5}]}
+\polymerdelim[delimiters ={[]},height = 5pt, depth = 25pt]{op}{cl}
+\bigskip
+
+%\ce{n \chemfig{H-[0,0.7]C(=[2,0.7]O)-[0,0.7]H} ->T[一定条件] \chemfig{[,0.7]*6(-O--O--O-)}}
+
+
+\ce{3 \chemfig{H_2N-[0,0.7]C~[0,0.7]H} ->T[一定条件] \chemfig{[,0.7]*6((-[5,0.7]H_2N)=N-(-[7,0.7]NH_2)=N-(-[2,0.7]NH_2)=N-)}}
+
+\ce{n \chemfig{[,0.7]*6(=-=(-[0,0.7]CH_2-[0,0.7]OH)-(-[2,0.7]OH)=(-[4,0.7]H)-)}}
+\chemfig{[,0.7]*6(=-=(-[0,0.7]CH_2-[0,0.7][@{cl,0.5}]OH)-(-[2,0.7]OH)=(-[4,0.7][@{op,0.5}]H)-)}
+\polymerdelim[delimiters ={[]},height = 5pt, depth = 25pt]{op}{cl}
+
+\end{document}
