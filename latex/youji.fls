@@ -263,6 +263,15 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong67.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong4e.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5b.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong67.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong50.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong53.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong52.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong50.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong53.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong52.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong50.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong53.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong52.tfm
 INPUT c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -272,7 +281,11 @@ INPUT youji.aux
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb

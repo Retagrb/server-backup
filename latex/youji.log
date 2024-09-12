@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  8 SEP 2024 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  11 SEP 2024 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -657,8 +657,18 @@ LaTeX Font Info:    Trying to load font information for C70+rm on input line 10.
 (c:/texlive/2024/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Overfull \hbox (61.19858pt too wide) in paragraph at lines 15--19
-[]$[] [][][][][][][][]$ \OT1/cmr/m/n/10.53937 + $[] [][][][][][][][][][]$$[] [] []$ []
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
  []
 
 (c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -677,18 +687,18 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 18932 strings out of 474116
- 382730 string characters out of 5747718
- 2014190 words of memory out of 5000000
- 40940 multiletter control sequences out of 15000+600000
- 565194 words of font info for 59 fonts, out of 8000000 for 9000
+ 19046 strings out of 474116
+ 384773 string characters out of 5747718
+ 2061190 words of memory out of 5000000
+ 41042 multiletter control sequences out of 15000+600000
+ 567624 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,14n,121p,750b,1085s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on youji.pdf (1 page, 69029 bytes).
+ 117i,20n,121p,750b,1083s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on youji.pdf (1 page, 94435 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
