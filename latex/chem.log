@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  24 SEP 2024 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  24 SEP 2024 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/知识点总结/server-backup/latex/youji.tex
-(c:/知识点总结/server-backup/latex/youji.tex
+**c:/知识点总结/server-backup/latex/chem.tex
+(c:/知识点总结/server-backup/latex/chem.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -545,8 +545,8 @@ Package: ulem 2019/11/18
 File: UTF8.enc 2021/10/16 4.8.5
 ) (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-) (./youji.aux)
-\openout1 = `youji.aux'.
+) (./chem.aux)
+\openout1 = `chem.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -687,40 +687,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--42
  []
 
 
-Overfull \hbox (156.25154pt too wide) in paragraph at lines 43--46
+Overfull \hbox (156.25154pt too wide) in paragraph at lines 43--44
 []$[]$ \OT1/cmr/m/n/10.53937 + $[]$$[] [] []$$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
-
  []
 
 (c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[2] (./youji.aux)
+] [2] (./chem.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -732,15 +707,15 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19141 strings out of 474116
- 386598 string characters out of 5747718
- 2128190 words of memory out of 5000000
- 41137 multiletter control sequences out of 15000+600000
+ 19121 strings out of 474116
+ 386152 string characters out of 5747718
+ 2126190 words of memory out of 5000000
+ 41117 multiletter control sequences out of 15000+600000
  567624 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,20n,121p,750b,1083s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,20n,121p,749b,1083s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on youji.pdf (2 pages, 99561 bytes).
+Output written on chem.pdf (2 pages, 98366 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
